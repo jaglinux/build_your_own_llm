@@ -2,6 +2,7 @@ import os
 from openai import OpenAI
 
 token = os.environ["GITHUB_TOKEN"]
+
 endpoint = "https://models.github.ai/inference"
 model = "openai/gpt-4.1"
 
@@ -29,5 +30,5 @@ response = client.chat.completions.create(
 )
 
 print(response.choices[0].message)
-print(response.choices[0].message.content)
+print(response.usage)
 
