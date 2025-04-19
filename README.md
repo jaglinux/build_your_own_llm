@@ -1,3 +1,6 @@
+# Agent  
+Use https://github.com/marketplace/models/azure-openai/gpt-4-1/playground with Python wrapper.
+
 # Create your own LLM / Transformer
 
 Transformer blocks are
